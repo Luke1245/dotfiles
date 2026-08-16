@@ -118,3 +118,5 @@ export PATH="$PATH:/Users/user/.local/bin"
 [ -f "/Users/user/.ghcup/env" ] && . "/Users/user/.ghcup/env" # ghcup-envalias 
 # Dotfiles bare git repo config
 alias config='/usr/bin/git --git-dir=/Users/user/.cfg/ --work-tree=/Users/user'
+
+alias :q='exit'
