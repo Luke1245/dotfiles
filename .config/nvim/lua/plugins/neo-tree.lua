@@ -11,3 +11,11 @@ vim.pack.add({
 })
 
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
+
+require('neo-tree').setup({
+    filesystem = {
+        filtered_items = {
+            visible = true 
+        }
+    }
+})
