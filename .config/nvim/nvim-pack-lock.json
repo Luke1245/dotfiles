@@ -61,6 +61,10 @@
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
+    "presence.nvim": {
+      "rev": "87c857a56b7703f976d3a5ef15967d80508df6e6",
+      "src": "https://github.com/andweeb/presence.nvim"
+    },
     "quicker.nvim": {
       "rev": "4a6883cb13fe097a20a046eb55f6dffd239276e3",
       "src": "https://github.com/stevearc/quicker.nvim"
