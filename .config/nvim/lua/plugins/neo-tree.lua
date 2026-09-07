@@ -13,9 +13,12 @@ vim.pack.add({
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
 
 require('neo-tree').setup({
+    enable_git_status = true,
+    git_status_async = true,
     filesystem = {
         filtered_items = {
             visible = true 
-        }
+        },
+        use_libuv_file_watcher = true,
     }
 })
