@@ -61,3 +61,6 @@ vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
 -- persist visual mode on indent 
 vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
+
+-- remove highlights when pressing esc
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
