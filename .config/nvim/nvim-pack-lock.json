@@ -4,6 +4,11 @@
       "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
+    "coc.nvim": {
+      "rev": "85709b90d7d3fa6962609b6adadac9f7b2067819",
+      "src": "https://github.com/neoclide/coc.nvim",
+      "version": "'release'"
+    },
     "fzf-lua": {
       "rev": "8671012a7b2a1648595952c655039d51fb301c14",
       "src": "https://github.com/ibhagwan/fzf-lua"
