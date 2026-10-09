@@ -10,12 +10,13 @@ vim.pack.add({
   "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
-vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>e', ':Neotree toggle right<CR>', { noremap = true, silent = true })
 
 require('neo-tree').setup({
     enable_git_status = true,
     git_status_async = true,
     filesystem = {
+        window = { position = "right" },
         filtered_items = {
             visible = true 
         },
