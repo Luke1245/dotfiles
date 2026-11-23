@@ -1,0 +1,6 @@
+{
+  "diagnostic.messageTarget": "echo",
+  "notification.disabledProgressSources": [
+    "*"
+  ]
+}
